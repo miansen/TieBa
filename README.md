@@ -3,7 +3,7 @@
 ##贴吧图片预览
 
 ![][1.登陆界面.jpg]
-![](https://github.com/MianSenWang/TieBa/row/master/TieBaImages/1.登录界面.jpg)
+![image](https://github.com/MianSenWang/TieBa/row/master/TieBaImages/1.登录界面.jpg)
 ![](https://github.com/MianSenWang/TieBa/row/master/TieBaImages/2.注册界面.jpg)
 ![](https://github.com/MianSenWang/TieBa/row/master/TieBaImages/3.主界面.jpg)
 ![](https://github.com/MianSenWang/TieBa/row/master/TieBaImages/4.帖子界面.jpg)
