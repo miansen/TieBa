@@ -38,10 +38,10 @@ public class LogOnFrm extends JFrame {
 	private JTextField userName;
 	private JPasswordField passWord;
 	List<Map<String, Object>> findAll;
-	private static List<Map<String, Object>> dataYH;//用户信息
-	private static List<Map<String, Object>> dataTB;//贴吧信息
+	private static List<Map<String, Object>> dataYH;// 用户信息
+	private static List<Map<String, Object>> dataTB;// 贴吧信息
 	private JTable table;// 贴吧信息表格
-	
+
 	public static List<Map<String, Object>> getData() {
 		return dataTB;
 	}
@@ -73,16 +73,15 @@ public class LogOnFrm extends JFrame {
 			}
 		});
 	}
+	//设置背景图片
+	public void setBg() {
+		((JPanel) this.getContentPane()).setOpaque(false);
+		ImageIcon img = new ImageIcon(".\\tupian\\背景1.jpg");
+		JLabel background = new JLabel(img);
+		this.getLayeredPane().add(background, new Integer(Integer.MIN_VALUE));
+		background.setBounds(0, 0, img.getIconWidth(), img.getIconHeight());
+	}
 
-	public void setBg(){   
-		 ((JPanel)this.getContentPane()).setOpaque(false);   
-		 ImageIcon img = new ImageIcon  
-		 (".\\tupian\\背景1.jpg");   
-		 JLabel background = new JLabel(img);  
-		 this.getLayeredPane().add(background, new Integer(Integer.MIN_VALUE));   
-		 background.setBounds(0, 0, img.getIconWidth(), img.getIconHeight());   
-		 } 
-	
 	/**
 	 * Create the frame.
 	 */
@@ -91,9 +90,10 @@ public class LogOnFrm extends JFrame {
 		ZiTi ziTi = new ZiTi();
 		ziTi.ziTi();
 		setBg();
-		
+
 		setFont(new Font("Dialog", Font.BOLD, 12));
-		setIconImage(Toolkit.getDefaultToolkit().getImage(LogOnFrm.class.getResource("/tupian/\u56FE\u68073.jpg")));
+		setIconImage(Toolkit.getDefaultToolkit().getImage(
+				LogOnFrm.class.getResource("/tupian/\u56FE\u68073.jpg")));
 		setResizable(false);
 		setTitle("\u767B\u5F55");
 		setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
@@ -144,12 +144,7 @@ public class LogOnFrm extends JFrame {
 
 		JButton dengLuButton = new JButton("\u767B\u5F55");
 		dengLuButton.setForeground(Color.BLUE);
-		
-		
-		
-		
-		
-		
+
 		String text = "刘德华";
 		MessageContexts.getInstance().offerMessage(new MessageObj() {
 
@@ -171,13 +166,6 @@ public class LogOnFrm extends JFrame {
 			}
 		});
 
-	
-		
-		
-		
-		
-		
-		
 		/**
 		 * 登录事件监听
 		 */
@@ -264,6 +252,6 @@ public class LogOnFrm extends JFrame {
 	 */
 	private void zhuCe(ActionEvent e) {
 		dispose();// 把当前窗体销毁
-		new ZhuCeFrm().setVisible(true);//注册界面
+		new ZhuCeFrm().setVisible(true);// 注册界面
 	}
 }
