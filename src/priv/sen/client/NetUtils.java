@@ -22,6 +22,7 @@ public class NetUtils {
 		
 //		ch.pipeline().addLast(new StringDecoder());
 //		ch.pipeline().addLast(new StringEncoder());
+		//nettyµÄ½âÂëÆ÷
 		LengthFieldBasedFrameDecoder lengthde = new LengthFieldBasedFrameDecoder(
 				Integer.MAX_VALUE, 0, 4, 0, 4, true);
 		ch.pipeline().addLast(lengthde);

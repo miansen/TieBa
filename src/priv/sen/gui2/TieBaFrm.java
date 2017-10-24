@@ -1,6 +1,7 @@
 package priv.sen.gui2;
 
 import java.awt.EventQueue;
+
 import javax.swing.JFrame;
 import javax.swing.JPanel;
 import javax.swing.border.EmptyBorder;
@@ -12,10 +13,13 @@ import javax.swing.JTable;
 import javax.swing.LayoutStyle.ComponentPlacement;
 import javax.swing.border.TitledBorder;
 import javax.swing.UIManager;
+
 import java.awt.Color;
+
 import javax.swing.JLabel;
 import javax.swing.JButton;
 import javax.swing.JTextArea;
+
 import java.awt.Toolkit;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
@@ -23,12 +27,15 @@ import java.awt.event.MouseAdapter;
 import java.awt.event.MouseEvent;
 import java.util.List;
 import java.util.Map;
+
 import javax.swing.ImageIcon;
 import javax.swing.JMenuBar;
 import javax.swing.JMenu;
 import javax.swing.JMenuItem;
 import javax.swing.JOptionPane;
+
 import org.apache.log4j.Logger;
+
 import priv.sen.entry.MTz;
 import priv.sen.entry.MYh;
 import priv.sen.entry.MZttb;
@@ -62,7 +69,7 @@ public class TieBaFrm extends JFrame {
 	private static List<Map<String, Object>> dataMyTZ;//我的帖子信息
 	private static List<Map<String, Object>> dataMyHF;//我的回复信息
 	private String str;
-	private static boolean flag;// 标记主题贴吧是否已存在
+	private static boolean flag = false;// 标记主题贴吧是否已存在
 	
 	
 	
@@ -425,9 +432,20 @@ public class TieBaFrm extends JFrame {
 		 */
 		cjButton.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
+//				String text = tbztArea.getText();//贴吧主题
+//				List<Map<String,Object>> data2 = LogOnFrm.getData();//贴吧信息
+//				for (int i = 0; i < data2.size(); i++) {
+//					if (text.equals(data2.get(i))) {
+//						JOptionPane.showMessageDialog(null, tbztArea.getText()
+//							+ "已存在!");
+//						return;
+//				}
+//			}
+				
 				if (flag) {
-					JOptionPane.showMessageDialog(null, tbztArea.getText()
-							+ "已存在!");
+//					JOptionPane.showMessageDialog(null, tbztArea.getText()
+//							+ "已存在!");
+					logger.debug("已存在");
 					return;
 				} else if (tbztArea.getText().equals("")) {
 					JOptionPane.showMessageDialog(null, "请输入贴吧主题!");
@@ -441,6 +459,7 @@ public class TieBaFrm extends JFrame {
 				}
 				chuangJianTieBa(e);
 				TieBaFrm.this.getContentPane().revalidate();//重绘
+				
 				JOptionPane.showMessageDialog(null, tbztArea.getText()
 						+ " 创建成功!");
 				ResetValueActionPerformed.resetValueActionPerformed(e,
@@ -552,6 +571,22 @@ public class TieBaFrm extends JFrame {
 		instance.setU_jianjie(text2);
 		// instance.setU_name(yongHuNiCheng());
 
+//		String text = tbztArea.getText();//贴吧主题
+		List<Map<String,Object>> data2 = LogOnFrm.getData();//贴吧信息
+		for (int i = 0; i < data2.size(); i++) {
+			if (text.equals(data2.get(i))) {
+				JOptionPane.showMessageDialog(null, tbztArea.getText()
+					+ "已存在!");
+				return;
+		}
+	}
+
+		
+		
+		
+		
+		
+		
 		MessageContexts.getInstance().offerMessage(new MessageObj() {
 
 			@Override

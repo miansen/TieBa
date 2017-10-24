@@ -1,108 +1,764 @@
-2017-10-18 23:01:52  [ io.netty.util.internal.logging.InternalLoggerFactory.<clinit>(InternalLoggerFactory.java:45) ] - [ DEBUG ]  
-Using Log4J as the default logging framework2017-10-18 23:01:52  [ io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:43) ] - [ DEBUG ]  
--Dio.netty.eventLoopThreads: 82017-10-18 23:01:52  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:88) ] - [ DEBUG ]  
--Dio.netty.noKeySetOptimization: false2017-10-18 23:01:52  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:89) ] - [ DEBUG ]  
--Dio.netty.selectorAutoRebuildThreshold: 5122017-10-18 23:01:53  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:75) ] - [ DEBUG ]  
--Dio.netty.machineId: 80:fa:5b:1b:6e:9e:00:00 (auto-detected)2017-10-18 23:01:53  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) ] - [ DEBUG ]  
--Dio.netty.processId: 6128 (auto-detected)2017-10-18 23:01:53  [ io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:138) ] - [ DEBUG ]  
--Dio.netty.initialSeedUniquifier: 0x19bfea48d8751a482017-10-18 23:01:53  [ io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:55) ] - [ DEBUG ]  
--Dio.netty.threadLocalDirectBufferSize: 655362017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:317) ] - [ DEBUG ]  
-Platform: Windows2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent.javaVersion0(PlatformDependent.java:447) ] - [ DEBUG ]  
-Java version: 82017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:454) ] - [ DEBUG ]  
--Dio.netty.noUnsafe: false2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:61) ] - [ DEBUG ]  
-java.nio.ByteBuffer.cleaner: available2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:80) ] - [ DEBUG ]  
-java.nio.Buffer.address: available2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:88) ] - [ DEBUG ]  
-sun.misc.Unsafe.theUnsafe: available2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:98) ] - [ DEBUG ]  
-sun.misc.Unsafe.copyMemory: available2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:138) ] - [ DEBUG ]  
-java.nio.Bits.unaligned: true2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:481) ] - [ DEBUG ]  
-sun.misc.Unsafe: available2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:559) ] - [ DEBUG ]  
--Dio.netty.noJavassist: false2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:571) ] - [ DEBUG ]  
-Javassist: unavailable2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:572) ] - [ DEBUG ]  
-You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.2017-10-18 23:01:53  [ io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:76) ] - [ DEBUG ]  
--Dio.netty.noPreferDirect: false2017-10-18 23:01:53  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:100) ] - [ DEBUG ]  
-Loopback interface: Software Loopback Interface 12017-10-18 23:01:53  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:105) ] - [ DEBUG ]  
-Loopback address: /127.0.0.1 (primary)2017-10-18 23:01:53  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:108) ] - [ DEBUG ]  
-Loopback address: /0:0:0:0:0:0:0:12017-10-18 23:04:01  [ io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:79) ] - [ DEBUG ]  
--Dio.netty.leakDetectionLevel: simple2017-10-18 23:04:01  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:06  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-1232017-10-18 23:04:06  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
-²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-18 23:04:06  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-1232017-10-18 23:04:06  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
-²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-18 23:04:07  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:14  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:14  [ priv.sen.serviece.W_ZTTBServiece.handlerMessage(W_ZTTBServiece.java:23) ] - [ DEBUG ]  
-¼ÓÔØÎÒµÄÌù°ÉµÄsqlÓï¾äÊÇ:select * from M_ZTTB where U_NAME = 'ÁõµÂ»ª' order by U_DATE2017-10-18 23:04:14  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:16  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:16  [ priv.sen.serviece.W_TZServiece.handlerMessage(W_TZServiece.java:23) ] - [ DEBUG ]  
-¼ÓÔØÎÒµÄÌû×ÓµÄsqlÓï¾äÊÇ:select * from fatie where U_NAME = 'ÁõµÂ»ª' order by FA_TIE_DATE2017-10-18 23:04:16  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:19  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:19  [ priv.sen.serviece.W_ZTTBServiece.handlerMessage(W_ZTTBServiece.java:23) ] - [ DEBUG ]  
-¼ÓÔØÎÒµÄÌù°ÉµÄsqlÓï¾äÊÇ:select * from M_ZTTB where U_NAME = 'ÁõµÂ»ª' order by U_DATE2017-10-18 23:04:19  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:25  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:25  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
-¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-18 23:04:25  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:29  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:29  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
-¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-18 23:04:29  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:32  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ºşÄÏ°É2017-10-18 23:04:32  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
-select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-18 23:04:32  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+2017-10-19 00:03:02  [ io.netty.util.internal.logging.InternalLoggerFactory.<clinit>(InternalLoggerFactory.java:45) ] - [ DEBUG ]  
+Using Log4J as the default logging framework2017-10-19 00:03:02  [ io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:43) ] - [ DEBUG ]  
+-Dio.netty.eventLoopThreads: 82017-10-19 00:03:02  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:88) ] - [ DEBUG ]  
+-Dio.netty.noKeySetOptimization: false2017-10-19 00:03:02  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:89) ] - [ DEBUG ]  
+-Dio.netty.selectorAutoRebuildThreshold: 5122017-10-19 00:03:02  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:75) ] - [ DEBUG ]  
+-Dio.netty.machineId: 80:fa:5b:1b:6e:9e:00:00 (auto-detected)2017-10-19 00:03:02  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) ] - [ DEBUG ]  
+-Dio.netty.processId: 6288 (auto-detected)2017-10-19 00:03:02  [ io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:138) ] - [ DEBUG ]  
+-Dio.netty.initialSeedUniquifier: 0x6325f443fc387f602017-10-19 00:03:02  [ io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:55) ] - [ DEBUG ]  
+-Dio.netty.threadLocalDirectBufferSize: 655362017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:317) ] - [ DEBUG ]  
+Platform: Windows2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent.javaVersion0(PlatformDependent.java:447) ] - [ DEBUG ]  
+Java version: 82017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:454) ] - [ DEBUG ]  
+-Dio.netty.noUnsafe: false2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:61) ] - [ DEBUG ]  
+java.nio.ByteBuffer.cleaner: available2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:80) ] - [ DEBUG ]  
+java.nio.Buffer.address: available2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:88) ] - [ DEBUG ]  
+sun.misc.Unsafe.theUnsafe: available2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:98) ] - [ DEBUG ]  
+sun.misc.Unsafe.copyMemory: available2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:138) ] - [ DEBUG ]  
+java.nio.Bits.unaligned: true2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:481) ] - [ DEBUG ]  
+sun.misc.Unsafe: available2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:559) ] - [ DEBUG ]  
+-Dio.netty.noJavassist: false2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:571) ] - [ DEBUG ]  
+Javassist: unavailable2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:572) ] - [ DEBUG ]  
+You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.2017-10-19 00:03:02  [ io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:76) ] - [ DEBUG ]  
+-Dio.netty.noPreferDirect: false2017-10-19 00:03:02  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:100) ] - [ DEBUG ]  
+Loopback interface: Software Loopback Interface 12017-10-19 00:03:02  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:105) ] - [ DEBUG ]  
+Loopback address: /127.0.0.1 (primary)2017-10-19 00:03:02  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:108) ] - [ DEBUG ]  
+Loopback address: /0:0:0:0:0:0:0:12017-10-19 00:03:08  [ io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:79) ] - [ DEBUG ]  
+-Dio.netty.leakDetectionLevel: simple2017-10-19 00:03:08  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:12  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+1232017-10-19 00:03:12  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
+²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-19 00:03:13  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+1232017-10-19 00:03:13  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
+²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-19 00:03:13  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:18  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:18  [ priv.sen.serviece.W_ZTTBServiece.handlerMessage(W_ZTTBServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄÌù°ÉµÄsqlÓï¾äÊÇ:select * from M_ZTTB where U_NAME = 'ÁõµÂ»ª' order by U_DATE2017-10-19 00:03:19  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:21  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:21  [ priv.sen.serviece.W_TZServiece.handlerMessage(W_TZServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄÌû×ÓµÄsqlÓï¾äÊÇ:select * from fatie where U_NAME = 'ÁõµÂ»ª' order by FA_TIE_DATE2017-10-19 00:03:21  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:24  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:24  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 00:03:24  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
 [{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
 ´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
 
 ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
 Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
 Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-18 23:04:32  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:33  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ºşÄÏ°É2017-10-18 23:04:33  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
-select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-18 23:04:33  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 00:03:24  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:25  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:25  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 00:03:25  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
 [{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
 Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
 Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
 Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}]2017-10-18 23:04:33  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ºşÄÏ°É2017-10-18 23:04:33  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
-select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-18 23:04:33  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
-[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
-Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
-Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}]2017-10-18 23:04:33  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:33  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ºşÄÏ°É2017-10-18 23:04:35  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
-select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-18 23:04:35  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
-[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
-Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
-Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}]2017-10-18 23:04:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ºşÄÏ°É2017-10-18 23:04:35  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
-select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-18 23:04:35  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}]2017-10-19 00:03:25  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:25  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
+select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-19 00:03:25  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
 [{ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
 ´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
 
 ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
 Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
 Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-18 23:04:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ÁõµÂ»ª2017-10-18 23:04:38  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ºşÄÏ°É2017-10-18 23:04:38  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
-select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-18 23:04:38  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-19 00:03:25  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:25  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:30  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:30  [ priv.sen.serviece.C_HFServiece.handlerMessage(C_HFServiece.java:35) ] - [ DEBUG ]  
+²åÈë»Ø¸´Ìû×ÓµÄsqlÓï¾äÊÇ£ºinsert into huifu (TBZT,TZBT,U_NAME,HUI_FU_DATE,HF) values ('ºşÄÏ°É','¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½','ÁõµÂ»ª','2017-10-19 00:03:30','12345')2017-10-19 00:03:31  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:31  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 00:03:31  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
 [{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
 Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
 Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
 Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}]2017-10-18 23:04:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ºşÄÏ°É2017-10-18 23:04:43  [ priv.sen.serviece.C_HFServiece.handlerMessage(C_HFServiece.java:35) ] - [ DEBUG ]  
-²åÈë»Ø¸´Ìû×ÓµÄsqlÓï¾äÊÇ£ºinsert into huifu (TBZT,TZBT,U_NAME,HUI_FU_DATE,HF) values ('ºşÄÏ°É','¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½','ÁõµÂ»ª','2017-10-18 23:04:43','1234')2017-10-18 23:04:44  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
-ºşÄÏ°É2017-10-18 23:04:44  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
-select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-18 23:04:44  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}, {HUI_FU_DATE=2017-10-19 00:03:30, U_NAME=ÁõµÂ»ª, HF=12345}]2017-10-19 00:03:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+º£ÄÏ°É2017-10-19 00:03:35  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'º£ÄÏ°É' order by FA_TIE_DATE2017-10-19 00:03:35  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[]2017-10-19 00:03:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:36  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+±±¾©°É2017-10-19 00:03:36  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = '±±¾©°É' order by FA_TIE_DATE2017-10-19 00:03:37  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 17:19:57, ZW=¹Ê¹¬, U_NAME=ÁõµÂ»ª, TBZT=±±¾©°É, TZBT=±±¾©¹Ê¹¬}]2017-10-19 00:03:37  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:38  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:38  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 00:03:38  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 00:03:38  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:39  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:39  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 00:03:39  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
 [{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
 Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
 Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
 Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
-Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}]2017-10-18 23:04:44  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}, {HUI_FU_DATE=2017-10-19 00:03:30, U_NAME=ÁõµÂ»ª, HF=12345}]2017-10-19 00:03:39  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:39  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
+select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-19 00:03:39  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
+[{ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-19 00:03:39  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:39  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:42  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:42  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 00:03:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:45  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+123452017-10-19 00:03:45  [ priv.sen.serviece.DeleteMyHuiFuServiece.handlerMessage(DeleteMyHuiFuServiece.java:23) ] - [ DEBUG ]  
+É¾³ıÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:delete huifu where HF = '12345'2017-10-19 00:03:46  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:46  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 00:03:51  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:51  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 00:03:51  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 00:03:51  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:52  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:52  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 00:03:52  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}]2017-10-19 00:03:52  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 00:03:52  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
+select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-19 00:03:52  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
+[{ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-19 00:03:52  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 00:03:52  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡2017-10-19 00:03:52  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 00:03:52  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 00:03:52  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 00:03:52  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 00:03:52  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 00:03:52  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 00:03:52  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:18  [ io.netty.util.internal.logging.InternalLoggerFactory.<clinit>(InternalLoggerFactory.java:45) ] - [ DEBUG ]  
+Using Log4J as the default logging framework2017-10-19 09:11:18  [ io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:43) ] - [ DEBUG ]  
+-Dio.netty.eventLoopThreads: 82017-10-19 09:11:19  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:88) ] - [ DEBUG ]  
+-Dio.netty.noKeySetOptimization: false2017-10-19 09:11:19  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:89) ] - [ DEBUG ]  
+-Dio.netty.selectorAutoRebuildThreshold: 5122017-10-19 09:11:19  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:75) ] - [ DEBUG ]  
+-Dio.netty.machineId: 80:fa:5b:1b:6e:9e:00:00 (auto-detected)2017-10-19 09:11:19  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) ] - [ DEBUG ]  
+-Dio.netty.processId: 2068 (auto-detected)2017-10-19 09:11:19  [ io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:138) ] - [ DEBUG ]  
+-Dio.netty.initialSeedUniquifier: 0xe66387ed0a41c9602017-10-19 09:11:19  [ io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:55) ] - [ DEBUG ]  
+-Dio.netty.threadLocalDirectBufferSize: 655362017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:317) ] - [ DEBUG ]  
+Platform: Windows2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent.javaVersion0(PlatformDependent.java:447) ] - [ DEBUG ]  
+Java version: 82017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:454) ] - [ DEBUG ]  
+-Dio.netty.noUnsafe: false2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:61) ] - [ DEBUG ]  
+java.nio.ByteBuffer.cleaner: available2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:80) ] - [ DEBUG ]  
+java.nio.Buffer.address: available2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:88) ] - [ DEBUG ]  
+sun.misc.Unsafe.theUnsafe: available2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:98) ] - [ DEBUG ]  
+sun.misc.Unsafe.copyMemory: available2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:138) ] - [ DEBUG ]  
+java.nio.Bits.unaligned: true2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:481) ] - [ DEBUG ]  
+sun.misc.Unsafe: available2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:559) ] - [ DEBUG ]  
+-Dio.netty.noJavassist: false2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:571) ] - [ DEBUG ]  
+Javassist: unavailable2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:572) ] - [ DEBUG ]  
+You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.2017-10-19 09:11:19  [ io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:76) ] - [ DEBUG ]  
+-Dio.netty.noPreferDirect: false2017-10-19 09:11:19  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:100) ] - [ DEBUG ]  
+Loopback interface: Software Loopback Interface 12017-10-19 09:11:19  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:105) ] - [ DEBUG ]  
+Loopback address: /127.0.0.1 (primary)2017-10-19 09:11:19  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:108) ] - [ DEBUG ]  
+Loopback address: /0:0:0:0:0:0:0:12017-10-19 09:11:24  [ io.netty.util.internal.logging.InternalLoggerFactory.<clinit>(InternalLoggerFactory.java:45) ] - [ DEBUG ]  
+Using Log4J as the default logging framework2017-10-19 09:11:24  [ io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:43) ] - [ DEBUG ]  
+-Dio.netty.eventLoopThreads: 82017-10-19 09:11:24  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:88) ] - [ DEBUG ]  
+-Dio.netty.noKeySetOptimization: false2017-10-19 09:11:24  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:89) ] - [ DEBUG ]  
+-Dio.netty.selectorAutoRebuildThreshold: 5122017-10-19 09:11:24  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:75) ] - [ DEBUG ]  
+-Dio.netty.machineId: 80:fa:5b:1b:6e:9e:00:00 (auto-detected)2017-10-19 09:11:24  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) ] - [ DEBUG ]  
+-Dio.netty.processId: 4408 (auto-detected)2017-10-19 09:11:24  [ io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:138) ] - [ DEBUG ]  
+-Dio.netty.initialSeedUniquifier: 0xd538d85e543978bd2017-10-19 09:11:24  [ io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:55) ] - [ DEBUG ]  
+-Dio.netty.threadLocalDirectBufferSize: 655362017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:317) ] - [ DEBUG ]  
+Platform: Windows2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent.javaVersion0(PlatformDependent.java:447) ] - [ DEBUG ]  
+Java version: 82017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:454) ] - [ DEBUG ]  
+-Dio.netty.noUnsafe: false2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:61) ] - [ DEBUG ]  
+java.nio.ByteBuffer.cleaner: available2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:80) ] - [ DEBUG ]  
+java.nio.Buffer.address: available2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:88) ] - [ DEBUG ]  
+sun.misc.Unsafe.theUnsafe: available2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:98) ] - [ DEBUG ]  
+sun.misc.Unsafe.copyMemory: available2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:138) ] - [ DEBUG ]  
+java.nio.Bits.unaligned: true2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:481) ] - [ DEBUG ]  
+sun.misc.Unsafe: available2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:559) ] - [ DEBUG ]  
+-Dio.netty.noJavassist: false2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:571) ] - [ DEBUG ]  
+Javassist: unavailable2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:572) ] - [ DEBUG ]  
+You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.2017-10-19 09:11:24  [ io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:76) ] - [ DEBUG ]  
+-Dio.netty.noPreferDirect: false2017-10-19 09:11:25  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:25  [ io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:79) ] - [ DEBUG ]  
+-Dio.netty.leakDetectionLevel: simple2017-10-19 09:11:25  [ io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:79) ] - [ DEBUG ]  
+-Dio.netty.leakDetectionLevel: simple2017-10-19 09:11:25  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:26  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:33  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+111111111232017-10-19 09:11:33  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+1232017-10-19 09:11:33  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
+²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-19 09:11:33  [ priv.sen.gui2.LogOnFrm$5.handlerMessage(LogOnFrm.java:223) ] - [ DEBUG ]  
+[{U_PASSWORD=123456, U_NAME=Ñï·«}, {U_PASSWORD=321321, U_NAME=Ñî·²}, {U_PASSWORD=123456, U_NAME=ÀîÔÆÁú}, {U_PASSWORD=a972383371, U_NAME=ÕÅÑ§ÓÑ}, {U_PASSWORD=123, U_NAME=ÁõµÂ»ª}, {U_PASSWORD=456, U_NAME=ÖÜĞÇ³Û}, {U_PASSWORD=789, U_NAME=ÖÜ½ÜÂ×}, {U_PASSWORD=123, U_NAME=ÀèÃ÷}, {U_PASSWORD=wyfwyf, U_NAME=wyf}, {U_PASSWORD=321321, U_NAME=Ñî}]2017-10-19 09:11:33  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:33  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+111111111232017-10-19 09:11:33  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+1232017-10-19 09:11:33  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
+²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-19 09:11:33  [ priv.sen.gui2.LogOnFrm$5.handlerMessage(LogOnFrm.java:223) ] - [ DEBUG ]  
+[{U_PASSWORD=123456, U_NAME=Ñï·«}, {U_PASSWORD=321321, U_NAME=Ñî·²}, {U_PASSWORD=123456, U_NAME=ÀîÔÆÁú}, {U_PASSWORD=a972383371, U_NAME=ÕÅÑ§ÓÑ}, {U_PASSWORD=123, U_NAME=ÁõµÂ»ª}, {U_PASSWORD=456, U_NAME=ÖÜĞÇ³Û}, {U_PASSWORD=789, U_NAME=ÖÜ½ÜÂ×}, {U_PASSWORD=123, U_NAME=ÀèÃ÷}, {U_PASSWORD=wyfwyf, U_NAME=wyf}, {U_PASSWORD=321321, U_NAME=Ñî}]2017-10-19 09:11:33  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:33  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:11:33  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:33  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:34  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:35  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ºşÄÏ°É2017-10-19 09:11:35  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 09:11:35  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 09:11:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 09:11:35  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 09:11:35  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 09:11:35  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 09:11:35  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:11:35  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:35  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:35  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:36  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:319) ] - [ DEBUG ]  
+µ¥»÷Êó±êµÄÌû×ÓÊÇ£º ¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 09:11:36  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:324) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 09:11:36  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:325) ] - [ DEBUG ]  
+Ìû×Ó±êÌâÊÇ£º¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 09:11:36  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 09:11:36  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 09:11:36  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 09:11:36  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}]2017-10-19 09:11:36  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:36  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 09:11:36  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 09:11:36  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
+select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-19 09:11:36  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
+[{ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-19 09:11:36  [ priv.sen.gui2.TieZiFrm$5$2.handlerMessage(TieZiFrm.java:367) ] - [ DEBUG ]  
+ÕıÎÄÊÇ:¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡2017-10-19 09:11:36  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:36  [ priv.sen.gui2.NeiRongFrm3.<init>(NeiRongFrm3.java:167) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌû×Ó±êÌâ:¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 09:11:36  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 09:11:36  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:11:36  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:36  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:36  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 09:11:36  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:11:36  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:36  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:36  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:36  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:43  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 09:11:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 09:11:43  [ priv.sen.serviece.C_HFServiece.handlerMessage(C_HFServiece.java:35) ] - [ DEBUG ]  
+²åÈë»Ø¸´Ìû×ÓµÄsqlÓï¾äÊÇ£ºinsert into huifu (TBZT,TZBT,U_NAME,HUI_FU_DATE,HF) values ('ºşÄÏ°É','¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½','ÁõµÂ»ª','2017-10-19 09:11:43','12345')2017-10-19 09:11:43  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:44  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 09:11:44  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 09:11:44  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 09:11:44  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}, {HUI_FU_DATE=2017-10-19 09:11:43, U_NAME=ÁõµÂ»ª, HF=12345}]2017-10-19 09:11:44  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:49  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:49  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:49  [ priv.sen.serviece.W_ZTTBServiece.handlerMessage(W_ZTTBServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄÌù°ÉµÄsqlÓï¾äÊÇ:select * from M_ZTTB where U_NAME = 'ÁõµÂ»ª' order by U_DATE2017-10-19 09:11:49  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:49  [ priv.sen.gui2.MyTieBaFrm.<init>(MyTieBaFrm.java:91) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:11:49  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:11:49  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:49  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:49  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:54  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:54  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:54  [ priv.sen.serviece.W_TZServiece.handlerMessage(W_TZServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄÌû×ÓµÄsqlÓï¾äÊÇ:select * from fatie where U_NAME = 'ÁõµÂ»ª' order by FA_TIE_DATE2017-10-19 09:11:54  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:11:54  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:54  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:54  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:54  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:57  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:57  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:57  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 09:11:57  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:11:57  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:11:57  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:11:57  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:11:57  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:12:00  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:12:00  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:12:00  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 09:12:00  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 09:12:00  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:12:00  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:12:00  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:12:00  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:12:05  [ priv.sen.gui2.MyHuiFuFrm$3.mouseClicked(MyHuiFuFrm.java:148) ] - [ DEBUG ]  
+»Ø¸´ÄÚÈİÊÇ:null2017-10-19 09:12:07  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111123452017-10-19 09:12:07  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+123452017-10-19 09:12:07  [ priv.sen.serviece.DeleteMyHuiFuServiece.handlerMessage(DeleteMyHuiFuServiece.java:23) ] - [ DEBUG ]  
+É¾³ıÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:delete huifu where HF = '12345'2017-10-19 09:12:07  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:12:08  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 09:12:08  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 09:12:08  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 09:12:08  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 09:12:11  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111null2017-10-19 09:12:11  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+2017-10-19 09:12:11  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:38:05  [ io.netty.util.internal.logging.InternalLoggerFactory.<clinit>(InternalLoggerFactory.java:45) ] - [ DEBUG ]  
+Using Log4J as the default logging framework2017-10-19 13:38:05  [ io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:43) ] - [ DEBUG ]  
+-Dio.netty.eventLoopThreads: 82017-10-19 13:38:05  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:88) ] - [ DEBUG ]  
+-Dio.netty.noKeySetOptimization: false2017-10-19 13:38:05  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:89) ] - [ DEBUG ]  
+-Dio.netty.selectorAutoRebuildThreshold: 5122017-10-19 13:38:05  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:75) ] - [ DEBUG ]  
+-Dio.netty.machineId: 80:fa:5b:1b:6e:9e:00:00 (auto-detected)2017-10-19 13:38:05  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) ] - [ DEBUG ]  
+-Dio.netty.processId: 5088 (auto-detected)2017-10-19 13:38:05  [ io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:138) ] - [ DEBUG ]  
+-Dio.netty.initialSeedUniquifier: 0x76a833d3f0ea26032017-10-19 13:38:05  [ io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:55) ] - [ DEBUG ]  
+-Dio.netty.threadLocalDirectBufferSize: 655362017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:317) ] - [ DEBUG ]  
+Platform: Windows2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent.javaVersion0(PlatformDependent.java:447) ] - [ DEBUG ]  
+Java version: 82017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:454) ] - [ DEBUG ]  
+-Dio.netty.noUnsafe: false2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:61) ] - [ DEBUG ]  
+java.nio.ByteBuffer.cleaner: available2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:80) ] - [ DEBUG ]  
+java.nio.Buffer.address: available2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:88) ] - [ DEBUG ]  
+sun.misc.Unsafe.theUnsafe: available2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:98) ] - [ DEBUG ]  
+sun.misc.Unsafe.copyMemory: available2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:138) ] - [ DEBUG ]  
+java.nio.Bits.unaligned: true2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:481) ] - [ DEBUG ]  
+sun.misc.Unsafe: available2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:559) ] - [ DEBUG ]  
+-Dio.netty.noJavassist: false2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:571) ] - [ DEBUG ]  
+Javassist: unavailable2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:572) ] - [ DEBUG ]  
+You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.2017-10-19 13:38:05  [ io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:76) ] - [ DEBUG ]  
+-Dio.netty.noPreferDirect: false2017-10-19 13:38:05  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:100) ] - [ DEBUG ]  
+Loopback interface: Software Loopback Interface 12017-10-19 13:38:05  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:105) ] - [ DEBUG ]  
+Loopback address: /127.0.0.1 (primary)2017-10-19 13:38:05  [ io.netty.util.NetUtil.<clinit>(NetUtil.java:108) ] - [ DEBUG ]  
+Loopback address: /0:0:0:0:0:0:0:12017-10-19 13:38:15  [ io.netty.util.internal.logging.InternalLoggerFactory.<clinit>(InternalLoggerFactory.java:45) ] - [ DEBUG ]  
+Using Log4J as the default logging framework2017-10-19 13:38:15  [ io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:43) ] - [ DEBUG ]  
+-Dio.netty.eventLoopThreads: 82017-10-19 13:38:15  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:88) ] - [ DEBUG ]  
+-Dio.netty.noKeySetOptimization: false2017-10-19 13:38:15  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:89) ] - [ DEBUG ]  
+-Dio.netty.selectorAutoRebuildThreshold: 5122017-10-19 13:38:16  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:75) ] - [ DEBUG ]  
+-Dio.netty.machineId: 80:fa:5b:1b:6e:9e:00:00 (auto-detected)2017-10-19 13:38:16  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) ] - [ DEBUG ]  
+-Dio.netty.processId: 160 (auto-detected)2017-10-19 13:38:16  [ io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:138) ] - [ DEBUG ]  
+-Dio.netty.initialSeedUniquifier: 0x48ff2c9fd43b0dd62017-10-19 13:38:16  [ io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:55) ] - [ DEBUG ]  
+-Dio.netty.threadLocalDirectBufferSize: 655362017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:317) ] - [ DEBUG ]  
+Platform: Windows2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent.javaVersion0(PlatformDependent.java:447) ] - [ DEBUG ]  
+Java version: 82017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:454) ] - [ DEBUG ]  
+-Dio.netty.noUnsafe: false2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:61) ] - [ DEBUG ]  
+java.nio.ByteBuffer.cleaner: available2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:80) ] - [ DEBUG ]  
+java.nio.Buffer.address: available2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:88) ] - [ DEBUG ]  
+sun.misc.Unsafe.theUnsafe: available2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:98) ] - [ DEBUG ]  
+sun.misc.Unsafe.copyMemory: available2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:138) ] - [ DEBUG ]  
+java.nio.Bits.unaligned: true2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:481) ] - [ DEBUG ]  
+sun.misc.Unsafe: available2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:559) ] - [ DEBUG ]  
+-Dio.netty.noJavassist: false2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:571) ] - [ DEBUG ]  
+Javassist: unavailable2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:572) ] - [ DEBUG ]  
+You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.2017-10-19 13:38:16  [ io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:76) ] - [ DEBUG ]  
+-Dio.netty.noPreferDirect: false2017-10-19 13:38:16  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:38:16  [ io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:79) ] - [ DEBUG ]  
+-Dio.netty.leakDetectionLevel: simple2017-10-19 13:38:16  [ io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:79) ] - [ DEBUG ]  
+-Dio.netty.leakDetectionLevel: simple2017-10-19 13:38:16  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:38:17  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:38:25  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+111111111232017-10-19 13:38:25  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+1232017-10-19 13:38:25  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
+²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-19 13:38:25  [ priv.sen.gui2.LogOnFrm$5.handlerMessage(LogOnFrm.java:223) ] - [ DEBUG ]  
+[{U_PASSWORD=123456, U_NAME=Ñï·«}, {U_PASSWORD=321321, U_NAME=Ñî·²}, {U_PASSWORD=123456, U_NAME=ÀîÔÆÁú}, {U_PASSWORD=a972383371, U_NAME=ÕÅÑ§ÓÑ}, {U_PASSWORD=123, U_NAME=ÁõµÂ»ª}, {U_PASSWORD=456, U_NAME=ÖÜĞÇ³Û}, {U_PASSWORD=789, U_NAME=ÖÜ½ÜÂ×}, {U_PASSWORD=123, U_NAME=ÀèÃ÷}, {U_PASSWORD=wyfwyf, U_NAME=wyf}, {U_PASSWORD=321321, U_NAME=Ñî}]2017-10-19 13:38:25  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:38:26  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+111111111232017-10-19 13:38:26  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+1232017-10-19 13:38:26  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
+²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-19 13:38:26  [ priv.sen.gui2.LogOnFrm$5.handlerMessage(LogOnFrm.java:223) ] - [ DEBUG ]  
+[{U_PASSWORD=123456, U_NAME=Ñï·«}, {U_PASSWORD=321321, U_NAME=Ñî·²}, {U_PASSWORD=123456, U_NAME=ÀîÔÆÁú}, {U_PASSWORD=a972383371, U_NAME=ÕÅÑ§ÓÑ}, {U_PASSWORD=123, U_NAME=ÁõµÂ»ª}, {U_PASSWORD=456, U_NAME=ÖÜĞÇ³Û}, {U_PASSWORD=789, U_NAME=ÖÜ½ÜÂ×}, {U_PASSWORD=123, U_NAME=ÀèÃ÷}, {U_PASSWORD=wyfwyf, U_NAME=wyf}, {U_PASSWORD=321321, U_NAME=Ñî}]2017-10-19 13:38:26  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:38:26  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:38:26  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:38:26  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:38:26  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:38:29  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ºşÄÏ°É2017-10-19 13:38:29  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:38:29  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:38:29  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:38:29  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 13:38:29  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 13:38:29  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:38:29  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ºşÄÏ°É2017-10-19 13:38:29  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:38:29  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:38:30  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ºşÄÏ°É2017-10-19 13:38:30  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:38:53  [ io.netty.util.internal.logging.InternalLoggerFactory.<clinit>(InternalLoggerFactory.java:45) ] - [ DEBUG ]  
+Using Log4J as the default logging framework2017-10-19 13:38:53  [ io.netty.channel.MultithreadEventLoopGroup.<clinit>(MultithreadEventLoopGroup.java:43) ] - [ DEBUG ]  
+-Dio.netty.eventLoopThreads: 82017-10-19 13:38:53  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:88) ] - [ DEBUG ]  
+-Dio.netty.noKeySetOptimization: false2017-10-19 13:38:53  [ io.netty.channel.nio.NioEventLoop.<clinit>(NioEventLoop.java:89) ] - [ DEBUG ]  
+-Dio.netty.selectorAutoRebuildThreshold: 5122017-10-19 13:38:53  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:75) ] - [ DEBUG ]  
+-Dio.netty.machineId: 80:fa:5b:1b:6e:9e:00:00 (auto-detected)2017-10-19 13:38:53  [ io.netty.channel.DefaultChannelId.<clinit>(DefaultChannelId.java:101) ] - [ DEBUG ]  
+-Dio.netty.processId: 4680 (auto-detected)2017-10-19 13:38:53  [ io.netty.util.internal.ThreadLocalRandom.newSeed(ThreadLocalRandom.java:138) ] - [ DEBUG ]  
+-Dio.netty.initialSeedUniquifier: 0xc108c8f040b212ec2017-10-19 13:38:53  [ io.netty.channel.ChannelOutboundBuffer.<clinit>(ChannelOutboundBuffer.java:55) ] - [ DEBUG ]  
+-Dio.netty.threadLocalDirectBufferSize: 655362017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent.isWindows0(PlatformDependent.java:317) ] - [ DEBUG ]  
+Platform: Windows2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent.javaVersion0(PlatformDependent.java:447) ] - [ DEBUG ]  
+Java version: 82017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:454) ] - [ DEBUG ]  
+-Dio.netty.noUnsafe: false2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:61) ] - [ DEBUG ]  
+java.nio.ByteBuffer.cleaner: available2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:80) ] - [ DEBUG ]  
+java.nio.Buffer.address: available2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:88) ] - [ DEBUG ]  
+sun.misc.Unsafe.theUnsafe: available2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:98) ] - [ DEBUG ]  
+sun.misc.Unsafe.copyMemory: available2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent0.<clinit>(PlatformDependent0.java:138) ] - [ DEBUG ]  
+java.nio.Bits.unaligned: true2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent.hasUnsafe0(PlatformDependent.java:481) ] - [ DEBUG ]  
+sun.misc.Unsafe: available2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:559) ] - [ DEBUG ]  
+-Dio.netty.noJavassist: false2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:571) ] - [ DEBUG ]  
+Javassist: unavailable2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent.hasJavassist0(PlatformDependent.java:572) ] - [ DEBUG ]  
+You don't have Javassist in your class path or you don't have enough permission to load dynamically generated classes.  Please check the configuration for better performance.2017-10-19 13:38:53  [ io.netty.util.internal.PlatformDependent.<clinit>(PlatformDependent.java:76) ] - [ DEBUG ]  
+-Dio.netty.noPreferDirect: false2017-10-19 13:38:53  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:38:53  [ io.netty.util.ResourceLeakDetector.<clinit>(ResourceLeakDetector.java:79) ] - [ DEBUG ]  
+-Dio.netty.leakDetectionLevel: simple2017-10-19 13:38:53  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:38:54  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:01  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+1232017-10-19 13:39:01  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+111111111232017-10-19 13:39:01  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
+²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-19 13:39:01  [ priv.sen.gui2.LogOnFrm$5.handlerMessage(LogOnFrm.java:223) ] - [ DEBUG ]  
+[{U_PASSWORD=123456, U_NAME=Ñï·«}, {U_PASSWORD=321321, U_NAME=Ñî·²}, {U_PASSWORD=123456, U_NAME=ÀîÔÆÁú}, {U_PASSWORD=a972383371, U_NAME=ÕÅÑ§ÓÑ}, {U_PASSWORD=123, U_NAME=ÁõµÂ»ª}, {U_PASSWORD=456, U_NAME=ÖÜĞÇ³Û}, {U_PASSWORD=789, U_NAME=ÖÜ½ÜÂ×}, {U_PASSWORD=123, U_NAME=ÀèÃ÷}, {U_PASSWORD=wyfwyf, U_NAME=wyf}, {U_PASSWORD=321321, U_NAME=Ñî}]2017-10-19 13:39:01  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:01  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+111111111232017-10-19 13:39:01  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+1232017-10-19 13:39:01  [ priv.sen.serviece.M_YHServiece.handlerMessage(M_YHServiece.java:23) ] - [ DEBUG ]  
+²éÑ¡ÓÃ»§µÄsqlÓï¾äÊÇ£ºselect U_NAME,U_PASSWORD from M_YH2017-10-19 13:39:02  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:39:02  [ priv.sen.gui2.LogOnFrm$5.handlerMessage(LogOnFrm.java:223) ] - [ DEBUG ]  
+[{U_PASSWORD=123456, U_NAME=Ñï·«}, {U_PASSWORD=321321, U_NAME=Ñî·²}, {U_PASSWORD=123456, U_NAME=ÀîÔÆÁú}, {U_PASSWORD=a972383371, U_NAME=ÕÅÑ§ÓÑ}, {U_PASSWORD=123, U_NAME=ÁõµÂ»ª}, {U_PASSWORD=456, U_NAME=ÖÜĞÇ³Û}, {U_PASSWORD=789, U_NAME=ÖÜ½ÜÂ×}, {U_PASSWORD=123, U_NAME=ÀèÃ÷}, {U_PASSWORD=wyfwyf, U_NAME=wyf}, {U_PASSWORD=321321, U_NAME=Ñî}]2017-10-19 13:39:02  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:02  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:39:02  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:39:02  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:16  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ºşÄÏ°É2017-10-19 13:39:16  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:39:16  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:39:16  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:39:16  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 13:39:16  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 13:39:16  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:39:16  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:39:16  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:16  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:39:16  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:39:16  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:18  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:319) ] - [ DEBUG ]  
+µ¥»÷Êó±êµÄÌû×ÓÊÇ£º ¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:39:18  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:324) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:39:18  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:325) ] - [ DEBUG ]  
+Ìû×Ó±êÌâÊÇ£º¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:39:18  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:39:18  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:39:18  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 13:39:18  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}]2017-10-19 13:39:18  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:18  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:39:18  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:39:18  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
+select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-19 13:39:18  [ priv.sen.gui2.NeiRongFrm3.<init>(NeiRongFrm3.java:167) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌû×Ó±êÌâ:¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:39:18  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
+[{ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-19 13:39:18  [ priv.sen.gui2.TieZiFrm$5$2.handlerMessage(TieZiFrm.java:367) ] - [ DEBUG ]  
+ÕıÎÄÊÇ:¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡2017-10-19 13:39:18  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:18  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:39:18  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:39:18  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:39:18  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:39:18  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:39:18  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:18  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:39:18  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:39:18  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:39:18  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:43  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ±±¾©°É2017-10-19 13:39:43  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£º±±¾©°É2017-10-19 13:39:43  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111±±¾©°É2017-10-19 13:39:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+±±¾©°É2017-10-19 13:39:43  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = '±±¾©°É' order by FA_TIE_DATE2017-10-19 13:39:43  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 17:19:57, ZW=¹Ê¹¬, U_NAME=ÁõµÂ»ª, TBZT=±±¾©°É, TZBT=±±¾©¹Ê¹¬}]2017-10-19 13:39:43  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:±±¾©°É2017-10-19 13:39:43  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:39:43  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:43  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:39:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:39:43  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:39:43  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:39:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:40:35  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ºşÄÏ°É2017-10-19 13:40:35  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:40:35  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:40:35  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:40:35  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:35  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:40:35  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:40:35  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:38  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:40:38  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:40:38  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 13:40:38  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 13:40:38  [ priv.sen.gui2.TieZiFrm$8.handlerMessage(TieZiFrm.java:509) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 13:40:38  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:38  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:40:38  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 13:40:38  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:40:38  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 13:40:42  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ºşÄÏ°É2017-10-19 13:40:42  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:40:42  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:40:42  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:40:42  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:42  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:40:42  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:40:42  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:43  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:319) ] - [ DEBUG ]  
+µ¥»÷Êó±êµÄÌû×ÓÊÇ£º ¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:40:43  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:324) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:40:43  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:325) ] - [ DEBUG ]  
+Ìû×Ó±êÌâÊÇ£º¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:40:43  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:40:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:40:43  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 13:40:43  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}]2017-10-19 13:40:43  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:43  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:40:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:40:43  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
+select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-19 13:40:43  [ priv.sen.gui2.NeiRongFrm3.<init>(NeiRongFrm3.java:167) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌû×Ó±êÌâ:¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:40:43  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:40:43  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:40:43  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
+[{ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-19 13:40:43  [ priv.sen.gui2.TieZiFrm$5$2.handlerMessage(TieZiFrm.java:367) ] - [ DEBUG ]  
+ÕıÎÄÊÇ:¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡2017-10-19 13:40:43  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:43  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:40:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:40:43  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
+select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-19 13:40:43  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:40:43  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:40:43  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
+[{ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-19 13:40:43  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:43  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:40:43  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:40:43  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:55  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:40:55  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:40:55  [ priv.sen.serviece.C_HFServiece.handlerMessage(C_HFServiece.java:35) ] - [ DEBUG ]  
+²åÈë»Ø¸´Ìû×ÓµÄsqlÓï¾äÊÇ£ºinsert into huifu (TBZT,TZBT,U_NAME,HUI_FU_DATE,HF) values ('ºşÄÏ°É','¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½','ÁõµÂ»ª','2017-10-19 13:40:55','12345')2017-10-19 13:40:55  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:40:57  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:40:57  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:40:57  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 13:40:57  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}, {HUI_FU_DATE=2017-10-19 13:40:55, U_NAME=ÁõµÂ»ª, HF=12345}]2017-10-19 13:40:57  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:06  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:06  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:06  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 13:41:06  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:06  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:41:06  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:06  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:06  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:10  [ priv.sen.gui2.MyHuiFuFrm$3.mouseClicked(MyHuiFuFrm.java:168) ] - [ DEBUG ]  
+»Ø¸´ÄÚÈİÊÇ:null2017-10-19 13:41:15  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+123452017-10-19 13:41:15  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111123452017-10-19 13:41:15  [ priv.sen.serviece.DeleteMyHuiFuServiece.handlerMessage(DeleteMyHuiFuServiece.java:23) ] - [ DEBUG ]  
+É¾³ıÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:delete huifu where HF = '12345'2017-10-19 13:41:15  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:17  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:17  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:17  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 13:41:17  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:20  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:20  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:20  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 13:41:20  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:20  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:20  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:20  [ priv.sen.serviece.W_HFServiece.handlerMessage(W_HFServiece.java:23) ] - [ DEBUG ]  
+¼ÓÔØÎÒµÄ»Ø¸´µÄsqlÓï¾äÊÇ:select * from huifu where U_NAME = 'ÁõµÂ»ª' order by HUI_FU_DATE2017-10-19 13:41:24  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê º£ÄÏ°É2017-10-19 13:41:24  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ºº£ÄÏ°É2017-10-19 13:41:24  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:º£ÄÏ°É2017-10-19 13:41:24  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:41:24  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:24  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:24  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:24  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:27  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111º£ÄÏ°É2017-10-19 13:41:27  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+º£ÄÏ°É2017-10-19 13:41:27  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'º£ÄÏ°É' order by FA_TIE_DATE2017-10-19 13:41:27  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[]2017-10-19 13:41:27  [ priv.sen.gui2.TieZiFrm$8.handlerMessage(TieZiFrm.java:509) ] - [ DEBUG ]  
+[]2017-10-19 13:41:27  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:28  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111º£ÄÏ°É2017-10-19 13:41:28  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+º£ÄÏ°É2017-10-19 13:41:28  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'º£ÄÏ°É' order by FA_TIE_DATE2017-10-19 13:41:28  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[]2017-10-19 13:41:28  [ priv.sen.gui2.TieZiFrm$8.handlerMessage(TieZiFrm.java:509) ] - [ DEBUG ]  
+[]2017-10-19 13:41:28  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:32  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ±±¾©°É2017-10-19 13:41:32  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£º±±¾©°É2017-10-19 13:41:32  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111±±¾©°É2017-10-19 13:41:32  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+±±¾©°É2017-10-19 13:41:32  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = '±±¾©°É' order by FA_TIE_DATE2017-10-19 13:41:32  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 17:19:57, ZW=¹Ê¹¬, U_NAME=ÁõµÂ»ª, TBZT=±±¾©°É, TZBT=±±¾©¹Ê¹¬}]2017-10-19 13:41:32  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:±±¾©°É2017-10-19 13:41:32  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:41:32  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:32  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:32  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:32  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:36  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê º£ÄÏ°É2017-10-19 13:41:36  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ºº£ÄÏ°É2017-10-19 13:41:36  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111º£ÄÏ°É2017-10-19 13:41:36  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+º£ÄÏ°É2017-10-19 13:41:37  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'º£ÄÏ°É' order by FA_TIE_DATE2017-10-19 13:41:37  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[]2017-10-19 13:41:37  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:º£ÄÏ°É2017-10-19 13:41:37  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:41:37  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:37  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:37  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:37  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:41  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:513) ] - [ DEBUG ]  
+µ¥»÷Êó±ê ºşÄÏ°É2017-10-19 13:41:41  [ priv.sen.gui2.TieBaFrm$11.mouseClicked(TieBaFrm.java:517) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:41:41  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:41:41  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:41:41  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:28) ] - [ DEBUG ]  
+select * from fatie where TBZT = 'ºşÄÏ°É' order by FA_TIE_DATE2017-10-19 13:41:41  [ priv.sen.serviece.M_TZServiece.handlerMessage(M_TZServiece.java:30) ] - [ DEBUG ]  
+[{FA_TIE_DATE=2017-10-10 16:21:04, ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡, U_NAME=ÁõµÂ»ª, TBZT=ºşÄÏ°É, TZBT=¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½}]2017-10-19 13:41:41  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:41:41  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:41:41  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:41  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:41  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:41  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:42  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:319) ] - [ DEBUG ]  
+µ¥»÷Êó±êµÄÌû×ÓÊÇ£º ¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:41:42  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:324) ] - [ DEBUG ]  
+Ìù°ÉÖ÷ÌâÊÇ£ººşÄÏ°É2017-10-19 13:41:42  [ priv.sen.gui2.TieZiFrm$5.mouseClicked(TieZiFrm.java:325) ] - [ DEBUG ]  
+Ìû×Ó±êÌâÊÇ£º¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:41:42  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:41:42  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:41:42  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:28) ] - [ DEBUG ]  
+select U_NAME,HUI_FU_DATE,HF from huifu where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½' order by HUI_FU_DATE2017-10-19 13:41:42  [ priv.sen.serviece.M_NRServiece2.handlerMessage(M_NRServiece2.java:30) ] - [ DEBUG ]  
+[{HUI_FU_DATE=2017-10-10 16:24:31, U_NAME=ÀîÔÆÁú, HF=×ğÖØ×Ô¼º£¬×ğÖØËûÈË¡£ÎÄÃ÷·¢Ìù¡£½¡¿µ½»Á÷}, {HUI_FU_DATE=2017-10-10 17:27:11, U_NAME=ÁõµÂ»ª, HF=¶şÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:33, U_NAME=ÁõµÂ»ª, HF=ÈıÂ¥}, {HUI_FU_DATE=2017-10-11 19:11:56, U_NAME=ÁõµÂ»ª, HF=ËÄÂ¥}, {HUI_FU_DATE=2017-10-11 19:13:54, U_NAME=ÁõµÂ»ª, HF=ÎåÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:08, U_NAME=ÁõµÂ»ª, HF=ÁùÂ¥}, {HUI_FU_DATE=2017-10-11 19:14:59, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 19:50:27, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ°ËÂ¥}, {HUI_FU_DATE=2017-10-11 20:19:00, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ¾ÅÂ¥}, {HUI_FU_DATE=2017-10-11 21:05:23, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ10Â¥}, {HUI_FU_DATE=2017-10-11 21:21:02, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇ12Â¥}, {HUI_FU_DATE=2017-10-11 21:21:44, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇ14Â¥}, {HUI_FU_DATE=2017-10-11 21:22:13, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-11 21:50:45, U_NAME=ÁõµÂ»ª, HF=Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}, {HUI_FU_DATE=2017-10-11 22:16:04, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:00:58, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:30, U_NAME=ÁõµÂ»ª, HF=ÎÒÊÇÁõµÂ»ª}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:09:39, U_NAME=ÀîÔÆÁú, HF=ÎÒÊÇÀîÔÆÁú}, {HUI_FU_DATE=2017-10-12 21:42:45, U_NAME=ÁõµÂ»ª, HF=123456}, {HUI_FU_DATE=2017-10-12 23:01:55, U_NAME=ÁõµÂ»ª, HF=123}, {HUI_FU_DATE=2017-10-18 23:04:43, U_NAME=ÁõµÂ»ª, HF=1234}]2017-10-19 13:41:42  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:42  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ºşÄÏ°É2017-10-19 13:41:42  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ºşÄÏ°É2017-10-19 13:41:42  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:28) ] - [ DEBUG ]  
+select ZW from fatie where TBZT = 'ºşÄÏ°É' and TZBT = '¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½'2017-10-19 13:41:42  [ priv.sen.gui2.NeiRongFrm3.<init>(NeiRongFrm3.java:167) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌû×Ó±êÌâ:¡¾¹«¸æ¡¿ºşÄÏ°É°É¹æ¼°°ÉÎñµ¼º½2017-10-19 13:41:42  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:41:42  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:41:42  [ priv.sen.serviece.M_NRServiece.handlerMessage(M_NRServiece.java:30) ] - [ DEBUG ]  
+[{ZW=¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡}]2017-10-19 13:41:42  [ priv.sen.gui2.TieZiFrm$5$2.handlerMessage(TieZiFrm.java:367) ] - [ DEBUG ]  
+ÕıÎÄÊÇ:¸÷Î»Ç×°®µÄĞ¡»ï°éÃÇ£º
+´ó¼ÒºÃ£¡»¶Ó­À´µ½°Ù¶ÈºşÄÏ°É¡£
+
+ºşÄÏ°É×÷ÎªÒ»¸ö½»Á÷ÓëÌÖÂÛÆ½Ì¨£¬Ã¿¸ö°ÉÓÑÀ´×Ô²»Í¬µÄ³ÇÊĞ£¬ÎÄ»¯²îÒìÓĞËù²»Í¬£¬¸÷µØ·½ÌØÉ«Ò²²»Ò»Ñù£¡
+Çë´ó¼ÒÎÄÃ÷½»Á÷£¬ºÍĞ³·¢Õ¹£¬»¥Ïà×ğÖØ£¬×ğÖØ±ğÈË¾ÍÊÇ×ğÖØ×Ô¼º£¡
+Çë¶Ô×Ô¼ºµÄÑÔÂÛºÍĞĞÎª¸ºÔğ£¬ÕÆÎÕºÃ·Ö´ç£¬·²ÊÂÓĞ¸ö¶È£¡
+Çë¸÷Î»°ÉÓÑ·¢ÌùÇ°Ïê¶ÁÒÔÏÂÄÚÈİ£¬ÒÔÃâ±»É¾Ìû·âºÅ£¡2017-10-19 13:41:42  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:42  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:42  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:42  [ priv.sen.gui2.TieZiFrm.<init>(TieZiFrm.java:135) ] - [ DEBUG ]  
+ÄÃµ½ÓÃ»§µã»÷µÄÌù°ÉÃû³Æ:ºşÄÏ°É2017-10-19 13:41:42  [ priv.sen.gui2.TieBaFrm.<init>(TieBaFrm.java:153) ] - [ DEBUG ]  
+ÕıÔÚµÇÂ¼...ÁõµÂ»ª2017-10-19 13:41:42  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
+333332017-10-19 13:41:42  [ priv.sen.client.Client.sendMessage(Client.java:64) ] - [ DEBUG ]  
+11111111ÁõµÂ»ª2017-10-19 13:41:42  [ priv.sen.server.MyServerHandler.channelRead(MyServerHandler.java:93) ] - [ DEBUG ]  
+ÁõµÂ»ª2017-10-19 13:41:42  [ priv.sen.client.MyClientHandler.channelRead(MyClientHandler.java:49) ] - [ DEBUG ]  
 33333

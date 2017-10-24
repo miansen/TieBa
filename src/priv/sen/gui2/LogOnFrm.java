@@ -234,14 +234,19 @@ public class LogOnFrm extends JFrame {
 				return myHttp;
 			}
 		});
-
-		for (int i = 0; i < dataYH.size(); i++) {
-			if (userName.equals(dataYH.get(i).get("U_NAME"))
-					&& passWord.equals(dataYH.get(i).get("U_PASSWORD"))) {
-				MYh.getInstance().setU_id(userName);
-				dispose();// 把当前窗体销毁
-				new TieBaFrm().setVisible(true);
+		
+		if(dataYH == null){
+			System.out.println("");
+		}else{
+			for (int i = 0; i < dataYH.size(); i++) {
+				if (userName.equals(dataYH.get(i).get("U_NAME"))
+						&& passWord.equals(dataYH.get(i).get("U_PASSWORD"))) {
+					MYh.getInstance().setU_id(userName);
+					dispose();// 把当前窗体销毁
+					new TieBaFrm().setVisible(true);
+				}
 			}
+		
 		}
 	}
 
